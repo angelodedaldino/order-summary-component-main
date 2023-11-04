@@ -1,0 +1,70 @@
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order-summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  max-width: min-content;
+}
+
+.order-summary img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.order-summary p {
+  width: 40ch;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 0;
+}
+.annual-plan {
+  display: flex;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.annual-plan .btn-change {
+  align-self: center;
+}
+
+.annual-plan img{
+  width: 48px;
+  height: 48px;
+  position: relative;
+  top:0.8rem;
+  left:0.5rem;
+}
+.annual-plan span {
+  align-self: flex-end;
+  position: relative;
+  bottom:0.1rem;
+  right: 6.5rem;
+}
+.annual-plan h2{
+  position: relative;
+  bottom: 0.5rem;
+  left: 0.5rem;
+}
+.btn-change {
+  color: darkblue;
+}
+
+.btn-payment-procedure {
+  text-decoration: none;
+  padding: 0.9rem 3.7rem;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: darkblue;
+  color: white;
+}
+
+.btn-cancel-order {
+  text-decoration: none;
+  color: #5c5858;
+}
